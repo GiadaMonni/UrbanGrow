@@ -1,0 +1,6 @@
+@import 'bootstrap';
+@import './carrello';
+@import './dettaglio';
+@import './donna';
+@import './home';
+@import './login';

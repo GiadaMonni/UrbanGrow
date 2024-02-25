@@ -1,0 +1,34 @@
+:root{
+    --roxo: rgb(53, 0, 105);
+    --viola: rgb(119, 19, 191);
+    --miniamarelo:rgb(255, 254, 226);
+    --beige: rgb(233, 233, 233);
+}
+
+.categorie{
+    height: 80px;
+    display: flex;
+    color: antiquewhite;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.categorie li{
+    /* border: solid 1px 0px 0px 0px var(--miniamarelo); */
+margin-left: 35px;
+font-size: 25px;
+list-style: none;
+}
+
+
+
+/* .riga{
+    width: 200vh;
+    height: 1px;
+    border: solid 1px var(--viola);
+    margin: 35px;
+    } */
+
+    

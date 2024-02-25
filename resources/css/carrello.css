@@ -1,0 +1,28 @@
+:root{
+    --roxo: rgb(53, 0, 105);
+    --viola: rgb(119, 19, 191);
+    --miniamarelo:rgb(255, 254, 226);
+    --beige: rgb(233, 233, 233);
+}
+
+.titolo{
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+.riga{
+width: 135vh;
+height: 1px;
+border: solid 1px var(--viola);
+}
+
+    .carrello{
+        border: solid 1px var(--viola);
+        margin-bottom: 15px;
+        
+    }
+
+.carrello img{
+    height: 15vh;
+    margin: 35px;
+    border: solid 2px var(--beige);
+}
