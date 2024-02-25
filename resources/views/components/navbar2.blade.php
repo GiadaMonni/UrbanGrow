@@ -17,7 +17,9 @@
         </div>  
       </div>
       <div class="d-flex justify-content-around col-8">
-        <img class="logo1" src="/public/img/ultimologodelcazzo.png" alt="">
+        <!-- <img class="logo1" src="/public/img/ultimologodelcazzo.png" alt=""> -->
+        <img class="logo1" src="{{ asset('img/ultimologodelcazzo.png') }}" alt="">
+
        </div>
     </div>
   </nav>
