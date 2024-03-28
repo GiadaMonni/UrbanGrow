@@ -8,8 +8,8 @@
         <form class="form" action="{{route('register')}}" method="POST">
             @csrf
             <div class="input-group my-2">
-                <label for="name"> Nome Utente</label>
-                <input type="text" name="name" id="name" placeholder=" name ">
+                <label for="name"> Nome Utente </label>
+                <input type="text" name="name" id="name" placeholder=" name " aria-describedby="name">
             </div>
     
             <div class="input-group  my-2">
@@ -62,3 +62,5 @@
     </div>
 
 </x-layout2>
+
+<x-footer/>

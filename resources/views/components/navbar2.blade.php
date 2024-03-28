@@ -13,7 +13,7 @@
           <a href="#">Meus pedidos</a>
           <a href="#">Trabalhe com nós</a>
           <a href="#">Contato</a>
-          <a href="#">Logout</a>
+          <a href="">Logout</a>
         </div>  
       </div>
       <div class="d-flex justify-content-around col-8">

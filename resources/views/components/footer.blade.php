@@ -39,7 +39,7 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i> UrbanGrow
+            <i class="fas fa-gem me-3"></i> <a href="{{route('home')}}">UrbanGrow</a>
           </h6>
           <p>
             Entendemos que a conveniência é fundamental, e é por isso que escolhemos o modelo de dropshipping. Isso nos permite oferecer uma ampla gama de produtos de alta qualidade, incluindo acessórios canábicos e roupas estilosas, enquanto mantemos preços acessíveis. Embora isso possa resultar em prazos de entrega mais longos, acreditamos que a qualidade compensa a espera.

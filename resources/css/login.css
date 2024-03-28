@@ -94,6 +94,11 @@
       background-color: #252525;
       color: white;
     }
+
+    .button2 a{
+      text-decoration: none;
+      color: white;
+    }
     
     .button2:hover {
       background-color: black;
