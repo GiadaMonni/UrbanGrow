@@ -3,11 +3,11 @@
       <ul>
         
         <li> 
-          @guest
+         
           <a href="{{route('login')}}">
             <i class="fa-regular fa-user"></i>
         </a>
-        @else
+        
         </li>
 
         <li>
