@@ -25,18 +25,20 @@
     <input  type="checkbox" name="remember" class="form-check-input" id="exampleCheck1"  >
     <input placeholder="Ricordati di me" type="email" name="email" class="input-field" id="exampleInputEmail1" aria-describedby="emailHelp">
     <label for="exampleCheck1" class="form-check-label"></label>
-    
    </div>
 
-      <div id="emailHelp" class="form-text ">
+      <!-- <div id="emailHelp" class="form-text ">
           <input placeholder=" Non condivideremo i tuoi dati con nessuno " type="email" name="email" class="input-field" id="exampleInputEmail1" aria-describedby="emailHelp">
-      </div>
+      </div> -->
 
       <div class="btn">
+        @guest
+        <button class="button2" type="submit"><a href="{{route('register')}}"> Sign Up </a></button>
+        @else
+        <button class="button1" type="submit" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        @endif
 
-      <button class="button1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-
-      <button class="button2"><a href="{{route('register')}}"> Sign Up </a></button>
+      
 
       </div>
       <div class="container"> 

@@ -13,7 +13,8 @@
           <a href="#">Meus pedidos</a>
           <a href="#">Trabalhe com nós</a>
           <a href="#">Contato</a>
-          <a href="">Logout</a>
+          <a href="/logout" onclick="event.preventDefault();getElementById('form-logout').submit();"> Logout </a>
+          <form id="form-logout" action="{{route('logout')}}" method="post" class="d-none"> @csrf</form>
         </div>  
       </div>
       <div class="d-flex justify-content-around col-8">
