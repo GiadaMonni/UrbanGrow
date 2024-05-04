@@ -14,10 +14,11 @@
           <a href="#">Trabalhe com nós</a>
           <a href="#">Contatos</a>
           @else
-          <a href=""> Profilo </a>
+          <a href="#"> Profilo </a>
           <a href="#">Meus pedidos</a>
           <a href="#">Trabalhe com nós</a>
           <a href="#">Contato</a>
+          <a href="{{route('announcements.create')}}" aria-current="page">Crea Card</a>
           <a href="/logout" onclick="event.preventDefault();getElementById('form-logout').submit();"> Logout </a>
           <form id="form-logout" action="{{route('logout')}}" method="post" class="d-none"> @csrf</form>
           @endguest

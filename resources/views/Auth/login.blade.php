@@ -37,4 +37,4 @@
 </div>
 
 </x-layout2>
-<!-- <x-footer/> -->
+<x-footer/>

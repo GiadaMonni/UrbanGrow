@@ -3,6 +3,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PubblicController;
+use App\Http\Controllers\AnnouncementController;
+
+
 
 
 /*
@@ -17,6 +20,9 @@ use App\Http\Controllers\PubblicController;
 */
 
 Route::get('/', [PubblicController::class, 'homepage'])->name('homepage');
+
+Route::get('/nuovo/annuncio', [AnnouncementController::class, 'createAnnouncement'])->name('announcements.create');
+
 
 Route::get('/profilo/{name}', [PubblicController::class,'profilo'])->name('profilo');
 
