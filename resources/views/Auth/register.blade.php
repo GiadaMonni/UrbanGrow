@@ -32,6 +32,23 @@
     
             <button class="sign my-5" type="submit"> Registrati </button>
         </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         </div>
     </div>
 

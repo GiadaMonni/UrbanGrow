@@ -13,7 +13,16 @@ return new class extends Migration
     {
         Schema::create('profili', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id')->unique(); // Chiave esterna per l'utente
+            $table->string('nome');
+            $table->string('email');
+            $table->string('password');
+            // Puoi aggiungere ulteriori campi se necessario
             $table->timestamps();
+        });
+
+        Schema::table('profili', function (Blueprint $table) {
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

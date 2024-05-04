@@ -4,6 +4,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PubblicController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,4 +19,9 @@ use App\Http\Controllers\PubblicController;
 Route::get('/', [PubblicController::class, 'homepage'])->name('homepage');
 
 Route::get('/profilo/{name}', [PubblicController::class,'profilo'])->name('profilo');
+
+
+
+
+
 
