@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('body');
-            $table->decimal ('price , 8,2');
+            // Correggi la definizione della colonna 'price'
+            $table->decimal('price', 8, 2); // Precisione: 8 cifre, Scala: 2 cifre dopo la virgola
             $table->timestamps();
         });
     }
